@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
 /* Project Library - Colours */
 $white: #ffffff;
 $blueSlate: #364577;
@@ -14,6 +16,23 @@ body {
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #343434 !important;
+}
+
+h1 {
+  font-size: 32px;
+}
+h2 {
+  font-size: 22px;
+  line-height: 1.4em;
+}
+
+h3 {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
 .grey-frame {
@@ -94,6 +113,7 @@ a:hover {
   background-attachment: fixed;
 }
 
+/*
 .d-bloc {
   color: rgba(255, 255, 255, 0.7);
 
@@ -313,6 +333,7 @@ a:hover {
     border-color: rgba(0, 0, 0, 0.3);
   }
 }
+*/
 
 .voffset {
   margin-top: 30px;
@@ -333,10 +354,6 @@ a:hover {
     padding-right: 0;
     padding-left: 0;
   }
-}
-
-#bloc-1-hero h1 {
-  font-size: 32px;
 }
 
 .navbar {
@@ -725,21 +742,6 @@ a[data-lightbox] {
   }
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-label,
-.btn,
-a {
-  font-family: "helvetica";
-  font-weight: 400;
-  color: #292929 !important;
-}
-
 .container {
   max-width: 1000px;
 }
@@ -790,27 +792,10 @@ p {
   margin: auto auto auto auto;
 }
 
-h2 {
-  font-size: 22px;
-  line-height: 1.4em;
-}
-
-h3 {
-  font-size: 15px;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: #292929 !important;
-}
-
 .med-width-whitespace {
   max-width: 800px;
   margin: auto auto auto auto;
   box-shadow: 0px 0px 0px #000000;
-}
-
-h1,
-h4 {
-  color: #333333 !important;
 }
 
 .icons {
@@ -866,7 +851,8 @@ h4 {
   color: #ffffff !important;
 
   &:hover {
-    background: #c27956 !important;
+    //background: #c27956 !important;
+    background: #ec7152 !important;
     color: #ffffff !important;
   }
 }
