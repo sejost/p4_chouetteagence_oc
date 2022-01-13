@@ -1,0 +1,13 @@
+# No documents type .pdf .docx .doc .txt .md
+*.pdf
+*.txt
+*.docx
+*.doc
+*.json
+/node_modules/
+/test
+
+# No mock-up files
+src/mock-up
+
+
