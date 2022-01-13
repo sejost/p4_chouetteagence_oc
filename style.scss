@@ -1,9 +1,25 @@
+/* Project Library - Colours */
+$white: #ffffff;
+$blueSlate: #364577;
+$mediumOrange: #c27956;
+$lightOrange: #ecb752;
+$heavyGrey: #303030;
+$heavyGreyClear: #303030cc;
+$mediumGrey: rgba(255, 255, 255, 0.2);
+$lightGrey: rgba(255, 255, 255, 0.6);
+
 body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.grey-frame {
+  padding: 2rem;
+  background: $heavyGreyClear;
+  border-radius: 2px;
 }
 
 a,
@@ -15,15 +31,7 @@ button {
 a:hover {
   text-decoration: none;
   cursor: pointer;
-}
-
-#page-loading-blocs-notifaction {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  width: 100%;
-  z-index: 100000;
-  background: #ffffff url("img/pageload-spinner.gif") no-repeat center center;
+  color: #ecb752;
 }
 
 .bloc {
@@ -88,10 +96,6 @@ a:hover {
 
 .d-bloc {
   color: rgba(255, 255, 255, 0.7);
-
-  button:hover {
-    color: rgba(255, 255, 255, 0.9);
-  }
 
   .icon-round,
   .icon-square,
@@ -540,8 +544,8 @@ button {
 .btn-clean {
   border: 1px solid rgba(0, 0, 0, 0.08);
   border-bottom-color: rgba(0, 0, 0, 0.1);
-  text-shadow: 0 1px 0 rgba(0, 0, 1, 0.1);
-  box-shadow: 0 1px 3px rgba(0, 0, 1, 0.25),
+  text-shadow: 0 1px 0 $heavyGreyClear;
+  box-shadow: 0 1px 3px $heavyGreyClear,
     inset 0 1px 0 0 rgba(255, 255, 255, 0.15);
 }
 
