@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 /* Project Library - Colours */
-$white: #ffffff;
 $blueSlate: #364577;
+$newBlueSlate: #325269;
 $mediumOrange: #c27956;
 $lightOrange: #ecb752;
-$heavyGrey: #303030;
-$heavyGreyClear: #303030cc;
+$heavyGrey: #343434;
+$heavyGreyClear: #343434cc;
 $mediumGrey: rgba(255, 255, 255, 0.2);
 $lightGrey: rgba(255, 255, 255, 0.6);
 
@@ -18,7 +18,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  color: #343434 !important;
+  color: $heavyGrey !important;
+  font-size: 18px;
 }
 
 h1 {
@@ -30,7 +31,7 @@ h2 {
 }
 
 h3 {
-  font-size: 15px;
+  font-size: 16px;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -50,7 +51,7 @@ button {
 a:hover {
   text-decoration: none;
   cursor: pointer;
-  color: #ecb752;
+  color: $lightOrange;
 }
 
 .bloc {
@@ -592,19 +593,19 @@ p {
 }
 
 .bgc-dark-slate-blue {
-  background-color: #364577;
+  background-color: $newBlueSlate;
 }
 
 .bgc-atomic-tangerine {
-  background-color: #ecb752;
+  background-color: $lightOrange;
 }
 
 .tc-white {
-  color: #ecb752 !important;
+  color: $lightOrange !important;
 }
 
 .btn-atomic-tangerine {
-  background: #ecb752;
+  background: $lightOrange;
   color: #ffffff !important;
 
   &:hover {
@@ -622,16 +623,16 @@ p {
 }
 
 .ltc-atomic-tangerine {
-  color: #ecb752 !important;
+  color: $lightOrange !important;
 
   &:hover {
-    color: #c27956 !important;
+    color: $mediumOrange !important;
   }
 }
 
 .icon-dark-slate-blue {
-  color: #364577 !important;
-  border-color: #364577 !important;
+  color: $newBlueSlate !important;
+  border-color: $newBlueSlate !important;
 }
 
 .bg-banniere {
@@ -792,7 +793,7 @@ p {
     background: rgba(0, 0, 0, 0.8);
 
     a {
-      color: rgba(255, 255, 255, 0.6);
+      color: $lightGrey;
     }
   }
 
