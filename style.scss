@@ -34,20 +34,24 @@ h3 {
   font-weight: 700;
 }
 
+button {
+  outline: none !important;
+}
+
 a,
 button {
   transition: all 0.3s ease-in-out;
   outline: none !important;
 }
 
+button:hover {
+  background: $secondary;
+}
+
 a:hover {
   text-decoration: none;
   cursor: pointer;
   color: $secondary;
-}
-
-button:hover {
-  background: $secondary;
 }
 
 .grey-frame {
@@ -187,10 +191,6 @@ button:hover {
 .mg-md {
   margin-top: 10px;
   margin-bottom: 20px;
-}
-
-button {
-  outline: none !important;
 }
 
 .btn {
