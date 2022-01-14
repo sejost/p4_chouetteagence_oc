@@ -162,9 +162,12 @@ a:hover {
     padding-left: 0;
     padding-right: 0;
   }
-  &__header > .navbar {
-    display: flex !important;
-    justify-content: space-between !important;
+  &__header {
+    padding: 1rem 40rem;
+    height: 7rem;
+    display: flex;
+    //align-items: center;
+    justify-content: space-between;
   }
   &__footer,
   .link__icon {
