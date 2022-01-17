@@ -4,10 +4,14 @@
 *.docx
 *.doc
 *.json
-/node_modules/
-/test
+
+index_aurel.html
 
 # No mock-up files
 src/mock-up
+/mock-up
 
-
+/node_modules/
+/test
+/old
+/img/old

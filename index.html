@@ -28,230 +28,231 @@
     
 </head>
 <body>
-	<!-- Principal conteneur -->
-	<div class="page-container">
-		
-		<!-- bloc-0 -->
-		<div class="bloc bloc__header l-bloc">
+	<!-- bloc-0 -->
+	<header class="bloc bloc__header l-bloc">
+		<nav role="navigation">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" alt="Logo de la marque d’une chouette au design épurée et aux formes cubiques de couleur noir sur fond blanc suivi du nom de la marque : La chouette agence." height="40" /></a>
-				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
+				<a class="navbar-brand" href="index.html" role="banner" La Chouette Agence : Entreprise de Web Design basée à Lyon"><img src="img/la-chouette-agence.png" alt="Logo de la marque, une chouette au design épuré en noir et blanc. La chouette Agence" height="40" /></a>
+				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1" title="Dérouler le menu">
 					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
 			</div>
-
-			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
-				<ul class="site-navigation nav navbar-nav">
+			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav" aria-label="Menu de navigation">
+				<ul class="site-navigation nav navbar-nav" role="menubar">
 					<li>
-						<a class="link" href="index.html">Accueil</a>
+						<a class="link" href="index.html" title="Accueil - La chouette agence" role="menuitem">
+							Accueil</a>
 					</li>
 					<li></li>
 					<li>
-						<a class="link" href="page2.html">Nous contacter</a>
+						<a class="link" href="contact.html" title="Formulaire de contact" role="menuitem">
+							Nous contacter</a>
 					</li>
 				</ul>
 			</div>
-		</div>
-		<!-- bloc-0 END -->
+		</nav>
+	</header>
+	<!-- bloc-0 END -->
 
-		<!-- bloc-1-presentation -->
-		<div class="bloc bloc__presentation bloc-background bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge b-parallax">
-			<div class="container bloc-lg">
-				<div class="row tight-width-whitespace">
-					<div class=" col-sm-12">
-						<img src="img/logo.png" class="center-block image-resize-mode" width="100" alt="La chouette agence, agence web paris, création logo paris" />
-						<h1 class="colour-frame text-center ">
-							La Chouette Agence<br>
-							Nous enchantons votre Web
-						</h1>
-						<div class="text-center">
-							<a href="page2.html" class="btn cta-hero" id="cta-hero">Contact</a>
-						</div>
+	<!-- bloc-1-presentation -->
+	<section class="bloc bloc__presentation bloc-background bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge b-parallax">
+		<div class="container bloc-lg">
+			<div class="row tight-width-whitespace">
+				<div class=" col-sm-12">
+					<img src="img/logo.png" class="center-block image-resize-mode" width="100" alt="Logo de la marque en couleurs dégradées, rouge vers jaune." title="Logo de la marque, entreprise de web design basée Lyon" />
+					<h1 class="colour-frame text-center" title="Titre de la page">
+						La Chouette Agence<br>
+						Nous enchantons votre Web
+					</h1>
+					<div class="text-center">
+						<a href="contact.html" class="btn cta-hero" id="cta-hero">Contact</a>
 					</div>
 				</div>
 			</div>
 		</div>
-		<!-- bloc-1-presentation END -->
-
-		<!-- bloc-2-services -->
-		<div class="bloc bloc__services l-bloc">
-			<div class="container bloc-md">
-				<div class="row">
-					<div class="col-sm-12 text-center">
-						<h2>La chouette agence est une agence de web design qui aide <br> les entreprises à devenir attractives et visibles sur Internet.</h2>
-					</div>
+	</section>
+	<!-- bloc-1-presentation END -->
+	<!-- bloc-2-services -->
+	<main class="bloc bloc__services l-bloc">
+		<div class="container bloc-md">
+			<div class="row">
+				<div class="col-sm-12 text-center">
+					<h2>La chouette agence est une agence de web design qui aide <br> les entreprises à devenir attractives et visibles sur Internet.</h2>
 				</div>
-				<div class="row voffset-lg med-width-whitespace">
-					<div class="col-sm-4">
-						<div class="text-center">
-							<span class="et-icon-browser sm-shadow icon-dark-slate-blue icons icon-lg"></span>
-						</div>
-						<h3 class="mg-md text-center">
-							Web design
-						</h3>
-						<p class="text-center ">
-							Que vous ayez un site web qui a besoin d&rsquo;un rafraîchissement ou que vous partiez de zéro, laissez-nous vous réaliser un design dont vous serez fier.
-						</p>
+			</div>
+			<div class="row voffset-lg med-width-whitespace">
+				<div class="col-sm-4">
+					<div class="text-center">
+						<span class="et-icon-browser sm-shadow icon-dark-slate-blue icons icon-lg" alt="Icône d'une page de navigateur web."></span>
 					</div>
-					<div class="col-sm-4">
-						<div class="text-center">
-							<span class="et-icon-presentation sm-shadow icon-dark-slate-blue icons icon-lg"></span>
-						</div>
-						<h3 class="mg-md text-center">
-							&nbsp;Stratégie
-						</h3>
-						<p class="text-center ">
-							Plutôt que de suggérer des designs à la mode, nous travaillerons avec vous pour comprendre vos objectifs commerciaux afin de vous proposer le meilleur design possible.<br>
-						</p>
-					</div>
-					<div class="col-sm-4">
-						<div class="text-center">
-							<span class="et-icon-edit sm-shadow icon-dark-slate-blue icons icon-lg"></span>
-						</div>
-						<h3 class="mg-md text-center">
-							Illustrations
-						</h3>
-						<p class="text-center ">
-							Un bon design n'est rien sans de bonnes illustrations. Laissez faire notre équipe de graphistes talentueux pour donner à vos pages une touche finale d'élégance.
-						</p>
-					</div>
+					<h3 class="mg-md text-center">
+						Web design
+					</h3>
+					<p class="text-center ">
+						Que vous ayez un site web qui a besoin d&rsquo;un rafraîchissement ou que vous partiez de zéro, laissez-nous vous réaliser un design dont vous serez fier.
+					</p>
 				</div>
-				<div class="row voffset-lg voffset">
-					<div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
-						<p class="quote">
-							"La chouettte agence est une excellente agence web ! 
-							Les web designers ont réussi à capturer l'essence de notre entreprise et à l'intégrer à notre site.</br>
-							Cela nous a aidé à doubler nos ventes en ligne à Lyon."
-						</p>
-						<p class="quoter">Maxime Guibard, PDG de <strong>À vos fourchettes</strong></p>
+				<div class="col-sm-4">
+					<div class="text-center">
+						<span class="et-icon-presentation sm-shadow icon-dark-slate-blue icons icon-lg" alt="Icône d'un tableau blanc. Une flèche indique une évolution."></span>
 					</div>
+					<h3 class="mg-md text-center">
+						&nbsp;Stratégie
+					</h3>
+					<p class="text-center ">
+						Plutôt que de suggérer des designs à la mode, nous travaillerons avec vous pour comprendre vos objectifs commerciaux afin de vous proposer le meilleur design possible.<br>
+					</p>
+				</div>
+				<div class="col-sm-4">
+					<div class="text-center">
+						<span class="et-icon-edit sm-shadow icon-dark-slate-blue icons icon-lg" alt="Icône d'un crayon à dessin dans un cadre."></span>
+					</div>
+					<h3 class="mg-md text-center">
+						Illustrations
+					</h3>
+					<p class="text-center ">
+						Un bon design n'est rien sans de bonnes illustrations. Laissez faire notre équipe de graphistes talentueux pour donner à vos pages une touche finale d'élégance.
+					</p>
+				</div>
+			</div>
+			<div class="row voffset-lg voffset">
+				<div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
+					<p class="quote">
+						"La chouettte agence est une excellente agence web ! 
+						Les web designers ont réussi à capturer l'essence de notre entreprise et à l'intégrer à notre site.</br>
+						Cela nous a aidé à doubler nos ventes en ligne à Lyon."
+					</p>
+					<p class="quoter">Maxime Guibard, PDG de <strong>À vos fourchettes</strong></p>
 				</div>
 			</div>
 		</div>
-		<!-- bloc-2-services END -->
-
-		<!-- bloc-3-what-i-do -->
-		<div class="bloc bloc__whatido bgc-atomic-tangerine bg-presentation d-bloc b-parallax" id="bloc-3-what-i-do">
-			<div class="container bloc-lg">
-				<div class="central-content row tight-width-whitespace">
-					<div class="col-sm-12">
-						<h2 class="colour-frame mg-md text-center">
-							Nous souhaitons aider les entreprises de la région Lyonnaise à se développer et à connaître le succès. Nous travaillons pour aider les entreprises locales à attirer de nouveaux clients .<br>
-						</h2>
-						<p class="colour-frame text-center">
-							Nous aimons collaborer avec des entrepreneurs créatifs et des entreprises locale, qu’elles aient besoin de créer un site de A à Z ou de donner un coup de jeune à leur site. Que vous ayez besoin d’une identité visuelle complète ou d’une refonte de votre site, n’hésitez pas à nous contacter. Nous travaillerons ensemble pour créer des sites beau et bien structurés, qui seront facilement trouvable sur les moteurs de recherche. <br><br><a class="link link__text" href="page2.html">Contactez notre équipe</a><br>
-						</p>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- bloc-3-what-i-do END -->
-
-		<!-- bloc-4-portfolio -->
-		<div class="bloc bloc__portfolio bg-repeat l-bloc">
-			<div class="container bloc-lg">
-				<div class="row">
-					<div class="col-sm-12 text-center">
-						<h2>Nous travaillons avec beaucoup de clients,</br> voici nos réalissations :</h2>
-					</div>
-				</div>
-				<div class="row tight-width-whitespace portfolio-row">
-					<div class="col-sm-6">
-						<a href="#" data-lightbox="img/1.jpg" data-gallery-id="gallery-1" data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb"><img src="img/1.jpg" alt="paris web design logo agence web meilleure agence et refonte site web journal" class="img-responsive portfolio-thumb" /></a>
-						<h3 class="mg-md text-center">
-							Refonte d'un site web pour un journal local
-						</h3>
-						<p class="text-center">
-							Nous avons créé une nouvelle identité visuelle pour un journal lyonnais.
-						</p>
-					</div>
-					<div class="col-sm-6">
-						<a href="#" data-lightbox="img/2.jpg" data-gallery-id="gallery-1" data-caption="Création d'un site web pour photographes" data-frame="snapshot-lb"><img src="img/2.jpg" class="img-responsive portfolio-thumb" alt="paris web design logo agence web meilleure agence, Création d'un site web pour photographes" /></a>
-						<h3 class="mg-md text-center">
-							Création d'un site web pour photographes
-						</h3>
-						<p class="text-center">
-							Nous avons conçu la plateforme idéale pour laisser place aux clichés des photographes.
-						</p>
-					</div>
-				</div>
-				<div class="row tight-width-whitespace portfolio-row">
-					<div class="col-sm-6">
-						<a href="#" data-lightbox="img/3.bmp" data-gallery-id="gallery-1" data-caption="Création d'un site internet pour un voyageur" data-frame="snapshot-lb"><img src="img/3.bmp" class="img-responsive portfolio-thumb" alt="paris web design logo agence web meilleure agence, Création d'un site web pour voyageur"/></a>
-						<h3 class="mg-md text-center">
-							Création d'un site internet pour un voyageur
-						</h3>
-						<p class="text-center">
-							Nous avons élaboré un site internet et des illustrations pour sublimer les vidéos et les articles de ce voyageur.
-						</p>
-					</div>
-					<div class="col-sm-6">
-						<a href="#" data-lightbox="img/4.bmp" data-gallery-id="gallery-1" data-caption="Conception d'un site pour une agence de mariage" data-frame="snapshot-lb"><img src="img/4.bmp" class="img-responsive portfolio-thumb" alt="paris web design logo agence web meilleure agence, Création d'un site web pour agence de mariage" /></a>
-						<h3 class="mg-md text-center">
-							Conception d'un site pour une agence de mariage
-						</h3>
-						<p class="text-center">
-							Nous avons travaillé avec cette agence pour créer un site internet permettant la présentation détaillée de leurs prestations.
-						</p>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- bloc-4-portfolio END -->
-
-		<!-- bloc-5-cta -->
-		<div class="bloc bloc__cta bgc-dark-slate-blue bg-banniere d-bloc bloc-bg-texture">
-			<div class="container bloc-lg">
-				<div class="central-content row">
+	</main>
+	<!-- bloc-2-services END -->
+	<!-- bloc-3-what-i-do -->
+	<section class="bloc bloc__whatido bgc-atomic-tangerine bg-presentation d-bloc b-parallax" id="bloc-3-what-i-do">
+		<div class="container bloc-lg">
+			<div class="central-content row tight-width-whitespace">
+				<div class="col-sm-12">
 					<h2 class="colour-frame mg-md text-center">
-						Prêt pour redonner vie à votre projet ?<br>Contactez notre équipe !
+						Nous souhaitons aider les entreprises de la région Lyonnaise à se développer et à connaître le succès. Nous travaillons pour aider les entreprises locales à attirer de nouveaux clients .<br>
 					</h2>
-					<div class="col-sm-12 text-center">
-						<a href="page2.html" class="btn cta-hero">Contact</a>
-					</div>
+					<p class="colour-frame text-center">
+						Nous aimons collaborer avec des entrepreneurs créatifs et des entreprises locale, qu’elles aient besoin de créer un site de A à Z ou de donner un coup de jeune à leur site. Que vous ayez besoin d’une identité visuelle complète ou d’une refonte de votre site, n’hésitez pas à nous contacter. Nous travaillerons ensemble pour créer des sites beau et bien structurés, qui seront facilement trouvable sur les moteurs de recherche. <br><br><a class="link link__text" href="#contact__local" title="Contactez nous">Contactez notre équipe</a><br>
+					</p>
 				</div>
 			</div>
 		</div>
-		<!-- bloc-5-cta END -->
-
-		<!-- Footer - bloc-8 -->
-		<div class="bloc bloc__footer bgc-atomic-tangerine d-bloc">
-			<div class="container bloc-sm">
-				<div class="row">
-					<div class="col-sm-12">
-						<p class="text-center">
-							La chouette agence - Agence web basée à Lyon.<br>
-						</p>
-						<div class="row row-no-gutters social">
-							<div class="col-sm-3">
-								<div class="text-center">
-									<a class="social" href="index.html"><span class="link link__icon fa fa-twitter icon-md"></span></a> 
-								</div>
+	</section>
+	<!-- bloc-3-what-i-do END -->
+	<!-- bloc-4-portfolio -->
+	<article class="bloc bloc__portfolio bg-repeat l-bloc">
+		<div class="container bloc-lg">
+			<div class="row">
+				<div class="col-sm-12 text-center">
+					<h2>Nous travaillons avec beaucoup de clients,</br> voici nos réalissations :</h2>
+				</div>
+			</div>
+			<div class="row tight-width-whitespace portfolio-row">
+				<div class="col-sm-6">
+					<a href="#" data-lightbox="img/1.jpg" data-gallery-id="gallery-1" data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb">
+						<img src="img/1.jpg" class="img-responsive portfolio-thumb" title="Refonte d'un site web pour un journal local"
+						alt="Photo de plusieurs magazines superposés les uns sur les autres." class="img-responsive portfolio-thumb"/></a>
+					<h3 class="mg-md text-center">
+						Refonte d'un site web pour un journal local
+					</h3>
+					<p class="text-center">
+						Nous avons créé une nouvelle identité visuelle pour un journal lyonnais.
+					</p>
+				</div>
+				<div class="col-sm-6">
+					<a href="#" data-lightbox="img/2.jpg" data-gallery-id="gallery-1" data-caption="Création d'un site web pour photographes" data-frame="snapshot-lb">
+						<img src="img/2.jpg" class="img-responsive portfolio-thumb" title="Création d'un site web pour photographes"
+						alt="Photo d’une jeune femme de profil regardant au travers l’objectif d’un appareil photo."/></a>
+					<h3 class="mg-md text-center">
+						Création d'un site web pour photographes
+					</h3>
+					<p class="text-center">
+						Nous avons conçu la plateforme idéale pour laisser place aux clichés des photographes.
+					</p>
+				</div>
+			</div>
+			<div class="row tight-width-whitespace portfolio-row">
+				<div class="col-sm-6">
+					<a href="#" data-lightbox="img/3.jpg" data-gallery-id="gallery-1" data-caption="Création d'un site internet pour un voyageur" data-frame="snapshot-lb">
+						<img src="img/3.jpg" class="img-responsive portfolio-thumb" title="Création d'un site internet pour un voyageur"
+						alt="Photo d’une multiples équipements de photographes bien ordonnés en colonne."/></a>
+					<h3 class="mg-md text-center">
+						Création d'un site internet pour un voyageur
+					</h3>
+					<p class="text-center">
+						Nous avons élaboré un site internet et des illustrations pour sublimer les vidéos et les articles de ce voyageur.
+					</p>
+				</div>
+				<div class="col-sm-6">
+					<a href="#" data-lightbox="img/4.jpg" data-gallery-id="gallery-1" data-caption="Conception d'un site pour une agence de mariage" data-frame="snapshot-lb">
+						<img src="img/4.jpg" class="img-responsive portfolio-thumb" title="Conception d'un site pour une agence de mariage"
+						alt="Photo d’un bureau joliment encombré d'accessoires et équipements de préparation de mariage."/></a>
+					<h3 class="mg-md text-center">
+						Conception d'un site pour une agence de mariage
+					</h3>
+					<p class="text-center">
+						Nous avons travaillé avec cette agence pour créer un site internet permettant la présentation détaillée de leurs prestations.
+					</p>
+				</div>
+			</div>
+		</div>
+	</article>
+	<!-- bloc-4-portfolio END -->
+	<!-- bloc-5-cta -->
+	<aside class="bloc bloc__cta bgc-dark-slate-blue bg-banniere d-bloc bloc-bg-texture">
+		<div class="container bloc-lg">
+			<div class="central-content row">
+				<h2 class="colour-frame mg-md text-center">
+					Prêt pour redonner vie à votre projet ?<br>Contactez notre équipe !
+				</h2>
+				<div class="col-sm-12 text-center">
+					<a id="contact__local" href="contact.html" class="btn cta-hero" title="Accéder au formulaire de contact">Contact</a>
+				</div>
+			</div>
+		</div>
+	</aside>
+	<!-- bloc-5-cta END -->
+	<!-- Footer - bloc-8 -->
+	<footer class="bloc bloc__footer bgc-atomic-tangerine d-bloc">
+		<div class="container bloc-sm">
+			<div class="row">
+				<div class="col-sm-12">
+					<p class="text-center">
+						La chouette agence - Agence web basée à Lyon.<br>
+					</p>
+					<div class="row row-no-gutters social">
+						<div class="col-sm-3">
+							<div class="text-center">
+								<a class="social" href="twitter.com/" target="_blank" title="Twitter"><span class="link link__icon fa fa-twitter icon-md"></span></a> 
 							</div>
-							<div class="col-sm-3">
-								<div class="text-center">
-									<a class="social" href="index.html"><span class="link link__icon fa fa-facebook icon-md"></span></a>
-								</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="text-center">
+								<a class="social" href="facebook.com/" target="_blank" title="Facebook"><span class="link link__icon fa fa-facebook icon-md"></span></a>
 							</div>
-							<div class="col-sm-3">
-								<div class="text-center">
-									<a class="social" href="index.html"><span class="link link__icon fa fa-dribbble icon-md"></span></a>
-								</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="text-center">
+								<a class="social" href="dribbble.com/" target="_blank" title="Dribble"><span class="link link__icon fa fa-dribbble icon-md"></span></a>
 							</div>
-							<div class="col-sm-3">
-								<div class="text-center">
-									<a class="social" href="index.html"><span class="link link__icon fa fa-instagram icon-md"></span></a>
-								</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="text-center">
+								<a class="social" href="instagram.com/" target="_blank" title="Instagram"><span class="link link__icon fa fa-instagram icon-md"></span></a>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<!-- Footer - bloc-8 END -->
-
-	</div>
-	<!-- Principal conteneur END -->
+	</footer>
+	<!-- Footer - bloc-8 END -->
+<!-- Principal conteneur END -->
     
 </body>
 </html>
