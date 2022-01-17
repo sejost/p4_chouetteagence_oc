@@ -214,8 +214,7 @@ a:hover {
 }
 
 .b-parallax {
-  //background-attachment: fixed;
-  background-attachment: scroll;
+  background-attachment: fixed;
 }
 
 .voffset {
@@ -362,15 +361,15 @@ a[data-lightbox] {
 }
 
 .bg-banniere {
-  background-image: url("img/la-chouette-agence-banniere.jpg");
+  background-image: url("img/la-chouette-agence-banniere.avif");
   background-attachment: fixed;
 }
 
 .bg-presentation {
-  background-image: url("img/image-de-presentation.bmp");
+  background-image: url("img/image-de-presentation.avif");
 }
 
-@media (min-width: 991px) {
+@media (max-width: 991px) {
   .b-parallax {
     background-attachment: scroll;
   }
