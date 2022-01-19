@@ -4,15 +4,13 @@
     <meta charset="utf-8">
     <meta name="description" content="La Chouette agence est une entreprise de Web Design basée à Lyon. Elle enchante votre web grâce à des créations de graphismes originaux transformant la navigation sur votre site en une véritable expérience utilisateur.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    
+	
 	<link rel="shortcut icon" type="image/png" href="favicon.avif">
 	
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
-	
-	
 	
 	<script src="./js/jquery-2.1.0.js"></script>
 	<script src="./js/bootstrap.js"></script>
@@ -22,41 +20,42 @@
 
     <title>La Chouette Agence - Agence de Web Design basée à Lyon</title>
 
-    
 <!-- Analytics -->
 <!-- Analytics END -->
-    
 </head>
 <body>
 	<!-- bloc-0 -->
 	<header class="bloc bloc__header l-bloc" role="banner">
-		<nav role="navigation" aria-label="barre de navigation">
-			<div class="navbar-header">
-				<a class="navbar-brand" href="index.html" role="link" aria-label="Logo de la marque et lien vers la page principale actuelle">
-					<img src="img/la-chouette-agence.png" alt="Logo de la marque, une chouette au design épuré en noir et blanc. La chouette Agence" height="40" />
-				</a>
-				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1" aria-label="Icone de menu mobile à déployer">
-					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-				</button>
-			</div>
-			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
-				<ul class="site-navigation nav navbar-nav">
-					<li>
-						<a class="link" href="index.html" role="menuitem" role="link" aria-label="Lien vers la page principale actuelle">
-							Accueil</a>
-					</li>
-					<li>
-						<a class="link" href="#contact__local" role="menuitem" role="link" aria-label="Lien interne vers l'accès au formulaire">
-							Nous contacter</a>
-					</li>
-				</ul>
-			</div>
-		</nav>
+		<div class="container bloc-sm">
+			<nav class="navbar row" role="navigation" aria-label="barre de navigation">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="index.html" role="link" aria-label="Logo de la marque et lien vers la page principale actuelle">
+						<img src="img/la-chouette-agence.png" alt="Logo de la marque, une chouette au design épuré en noir et blanc. La chouette Agence" height="40" />
+					</a>
+					<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1" aria-label="Icone de menu mobile à déployer">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
+					<ul class="site-navigation nav navbar-nav">
+						<li>
+							<a class="link" href="index.html" role="menuitem" role="link" aria-label="Lien vers la page principale actuelle">Accueil</a>
+						</li>
+						<li>
+							<a class="link" href="#contact__local" role="menuitem" role="link" aria-label="Lien interne vers l'accès au formulaire">Nous contacter</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
 	</header>
 	<!-- bloc-0 END -->
 
 	<!-- bloc-1-presentation -->
-	<section class="bloc bloc__presentation bloc-background bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge b-parallax" aria-label="Section de présentation de la chouette agence">
+	<section class="bloc bloc__presentation bloc-background bg-banniere d-bloc bg-t-edge b-parallax" aria-label="Section de présentation de la chouette agence">
 		<div class="container bloc-lg">
 			<div class="row tight-width-whitespace">
 				<div class=" col-sm-12">
@@ -130,7 +129,7 @@
 	</main>
 	<!-- bloc-2-services END -->
 	<!-- bloc-3-what-i-do -->
-	<section class="bloc bloc__whatido bgc-atomic-tangerine bg-presentation d-bloc b-parallax" id="bloc-3-what-i-do" aria-label="Section sur le métier central de la chouette agence">
+	<section class="bloc bloc__whatido bg-presentation d-bloc b-parallax" id="bloc-3-what-i-do" aria-label="Section sur le métier central de la chouette agence">
 		<div class="container bloc-lg">
 			<div class="central-content row tight-width-whitespace">
 				<div class="col-sm-12">
@@ -206,7 +205,7 @@
 	</article>
 	<!-- bloc-4-portfolio END -->
 	<!-- bloc-5-cta -->
-	<aside class="bloc bloc__cta bgc-dark-slate-blue bg-banniere d-bloc b-parallax" role="complementary">
+	<aside class="bloc bloc__cta bg-banniere d-bloc b-parallax" role="complementary">
 		<div class="container bloc-lg">
 			<div class="central-content row">
 				<h2 class="colour-frame mg-md text-center">
@@ -220,7 +219,7 @@
 	</aside>
 	<!-- bloc-5-cta END -->
 	<!-- Footer - bloc-8 -->
-	<footer class="bloc bloc__footer bgc-atomic-tangerine d-bloc" role="contentinfo">
+	<footer class="bloc bloc__footer d-bloc" role="contentinfo">
 		<div class="container bloc-sm">
 			<div class="row">
 				<div class="col-sm-12">
@@ -254,6 +253,5 @@
 		</div>
 	</footer>
 	<!-- Footer - bloc-8 END -->
-<!-- Principal conteneur END -->
 </body>
 </html>

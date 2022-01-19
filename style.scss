@@ -136,7 +136,7 @@ a:hover {
   }
 
   .icon-bar {
-    background-color: $blackOwlClear;
+    background: $blackOwlClear;
     width: 26px;
   }
 }
@@ -167,11 +167,14 @@ a:hover {
     padding-right: 0;
   }
   &__header nav {
-    padding: 1rem 40rem;
-    height: 7rem;
     display: flex;
     justify-content: space-between;
   }
+
+  &__footer {
+    background: $main;
+  }
+
   &__footer,
   .link__icon {
     color: $whiteOwl;
@@ -336,18 +339,6 @@ a[data-lightbox] {
   text-decoration: underline !important;
 }
 
-.bgc-white {
-  background-color: $whiteOwl;
-}
-
-.bgc-dark-slate-blue {
-  background-color: $secondary;
-}
-
-.bgc-atomic-tangerine {
-  background-color: $main;
-}
-
 .tc-white {
   color: $main !important;
 }
@@ -372,5 +363,12 @@ a[data-lightbox] {
 @media (max-width: 991px) {
   .b-parallax {
     background-attachment: scroll;
+  }
+}
+
+@media (max-width: 767px) {
+  .bloc__header nav {
+    display: flex;
+    justify-content: space-between;
   }
 }
