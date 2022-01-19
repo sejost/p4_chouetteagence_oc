@@ -29,23 +29,24 @@
 </head>
 <body>
 	<!-- bloc-0 -->
-	<header class="bloc bloc__header l-bloc">
-		<nav role="navigation">
+	<header class="bloc bloc__header l-bloc" role="banner">
+		<nav role="navigation" aria-label="barre de navigation">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="index.html" role="banner" La Chouette Agence : Entreprise de Web Design basée à Lyon"><img src="img/la-chouette-agence.png" alt="Logo de la marque, une chouette au design épuré en noir et blanc. La chouette Agence" height="40" /></a>
-				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1" title="Dérouler le menu">
+				<a class="navbar-brand" href="index.html" role="link" aria-label="Logo de la marque et lien vers la page principale actuelle">
+					<img src="img/la-chouette-agence.png" alt="Logo de la marque, une chouette au design épuré en noir et blanc. La chouette Agence" height="40" />
+				</a>
+				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1" aria-label="Icone de menu mobile à déployer">
 					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
 			</div>
-			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav" aria-label="Menu de navigation">
-				<ul class="site-navigation nav navbar-nav" role="menubar">
+			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
+				<ul class="site-navigation nav navbar-nav">
 					<li>
-						<a class="link" href="index.html" title="Accueil - La chouette agence" role="menuitem">
+						<a class="link" href="index.html" role="menuitem" role="link" aria-label="Lien vers la page principale actuelle">
 							Accueil</a>
 					</li>
-					<li></li>
 					<li>
-						<a class="link" href="contact.html" title="Formulaire de contact" role="menuitem">
+						<a class="link" href="#contact__local" role="menuitem" role="link" aria-label="Lien interne vers l'accès au formulaire">
 							Nous contacter</a>
 					</li>
 				</ul>
@@ -55,17 +56,17 @@
 	<!-- bloc-0 END -->
 
 	<!-- bloc-1-presentation -->
-	<section class="bloc bloc__presentation bloc-background bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge b-parallax">
+	<section class="bloc bloc__presentation bloc-background bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge b-parallax" aria-label="Section de présentation de la chouette agence">
 		<div class="container bloc-lg">
 			<div class="row tight-width-whitespace">
 				<div class=" col-sm-12">
-					<img src="img/logo.png" aria-label="logo" class="center-block image-resize-mode" width="100" alt="Logo de la marque en couleurs dégradées, rouge vers jaune." title="Logo de la marque, entreprise de web design basée Lyon" />
-					<h1 class="colour-frame text-center" title="Titre de la page">
+					<img src="img/logo.png" class="center-block image-resize-mode" width="100" alt="Logo de la marque en couleurs dégradées, rouge vers jaune."/>
+					<h1 class="colour-frame text-center" aria-label="Titre et présentation de la page">
 						La Chouette Agence<br>
 						Nous enchantons votre Web
 					</h1>
 					<div class="text-center">
-						<a href="contact.html" class="btn cta-hero" id="cta-hero">Contact</a>
+						<a href="contact.html" class="btn cta-hero" id="cta-hero" role="link" aria-label="Lien vers page formulaire de contact">Contact</a>
 					</div>
 				</div>
 			</div>
@@ -73,7 +74,7 @@
 	</section>
 	<!-- bloc-1-presentation END -->
 	<!-- bloc-2-services -->
-	<main class="bloc bloc__services l-bloc">
+	<main class="bloc bloc__services l-bloc" aria-label="Section principale de la page qui développe sur les services">
 		<div class="container bloc-md">
 			<div class="row">
 				<div class="col-sm-12 text-center">
@@ -83,7 +84,7 @@
 			<div class="row voffset-lg med-width-whitespace">
 				<div class="col-sm-4">
 					<div class="text-center">
-						<span class="et-icon-browser sm-shadow icon-dark-slate-blue icons icon-lg" alt="Icône d'une page de navigateur web."></span>
+						<span class="et-icon-browser sm-shadow icon-dark-slate-blue icons icon-lg"></span>
 					</div>
 					<h3 class="mg-md text-center">
 						Web design
@@ -94,7 +95,7 @@
 				</div>
 				<div class="col-sm-4">
 					<div class="text-center">
-						<span class="et-icon-presentation sm-shadow icon-dark-slate-blue icons icon-lg" alt="Icône d'un tableau blanc. Une flèche indique une évolution."></span>
+						<span class="et-icon-presentation sm-shadow icon-dark-slate-blue icons icon-lg"></span>
 					</div>
 					<h3 class="mg-md text-center">
 						&nbsp;Stratégie
@@ -105,7 +106,7 @@
 				</div>
 				<div class="col-sm-4">
 					<div class="text-center">
-						<span class="et-icon-edit sm-shadow icon-dark-slate-blue icons icon-lg" alt="Icône d'un crayon à dessin dans un cadre."></span>
+						<span class="et-icon-edit sm-shadow icon-dark-slate-blue icons icon-lg"></span>
 					</div>
 					<h3 class="mg-md text-center">
 						Illustrations
@@ -129,7 +130,7 @@
 	</main>
 	<!-- bloc-2-services END -->
 	<!-- bloc-3-what-i-do -->
-	<section class="bloc bloc__whatido bgc-atomic-tangerine bg-presentation d-bloc b-parallax" id="bloc-3-what-i-do">
+	<section class="bloc bloc__whatido bgc-atomic-tangerine bg-presentation d-bloc b-parallax" id="bloc-3-what-i-do" aria-label="Section sur le métier central de la chouette agence">
 		<div class="container bloc-lg">
 			<div class="central-content row tight-width-whitespace">
 				<div class="col-sm-12">
@@ -137,7 +138,8 @@
 						Nous souhaitons aider les entreprises de la région Lyonnaise à se développer et à connaître le succès. Nous travaillons pour aider les entreprises locales à attirer de nouveaux clients .<br>
 					</h2>
 					<p class="colour-frame text-center">
-						Nous aimons collaborer avec des entrepreneurs créatifs et des entreprises locale, qu’elles aient besoin de créer un site de A à Z ou de donner un coup de jeune à leur site. Que vous ayez besoin d’une identité visuelle complète ou d’une refonte de votre site, n’hésitez pas à nous contacter. Nous travaillerons ensemble pour créer des sites beau et bien structurés, qui seront facilement trouvable sur les moteurs de recherche. <br><br><a class="link link__text" href="#contact__local" title="Contactez nous">Contactez notre équipe</a><br>
+						Nous aimons collaborer avec des entrepreneurs créatifs et des entreprises locale, qu’elles aient besoin de créer un site de A à Z ou de donner un coup de jeune à leur site. Que vous ayez besoin d’une identité visuelle complète ou d’une refonte de votre site, n’hésitez pas à nous contacter. Nous travaillerons ensemble pour créer des sites beau et bien structurés, qui seront facilement trouvable sur les moteurs de recherche. <br><br>
+						<a class="link link__text" href="#contact__local" aria-label="Lien interne vers l'accès au formulaire">Contactez notre équipe</a><br>
 					</p>
 				</div>
 			</div>
@@ -145,7 +147,7 @@
 	</section>
 	<!-- bloc-3-what-i-do END -->
 	<!-- bloc-4-portfolio -->
-	<article class="bloc bloc__portfolio bg-repeat l-bloc">
+	<article class="bloc bloc__portfolio bg-repeat l-bloc" role="article">
 		<div class="container bloc-lg">
 			<div class="row">
 				<div class="col-sm-12 text-center">
@@ -155,7 +157,7 @@
 			<div class="row tight-width-whitespace portfolio-row">
 				<div class="col-sm-6">
 					<a href="#" data-lightbox="img/1.avif" data-gallery-id="gallery-1" data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb">
-						<img src="img/1.avif" class="img-responsive portfolio-thumb" title="Refonte d'un site web pour un journal local"
+						<img src="img/1.avif" class="img-responsive portfolio-thumb"
 						alt="Photo de plusieurs magazines superposés les uns sur les autres." class="img-responsive portfolio-thumb"/></a>
 					<h3 class="mg-md text-center">
 						Refonte d'un site web pour un journal local
@@ -166,8 +168,8 @@
 				</div>
 				<div class="col-sm-6">
 					<a href="#" data-lightbox="img/2.avif" data-gallery-id="gallery-1" data-caption="Création d'un site web pour photographes" data-frame="snapshot-lb">
-						<img src="img/2.avif" class="img-responsive portfolio-thumb" title="Création d'un site web pour photographes"
-						alt="Photo d’une jeune femme de profil regardant au travers l’objectif d’un appareil photo."/></a>
+						<img src="img/2.avif" class="img-responsive portfolio-thumb"
+						alt="Photo d’une femme de profil regardant au travers l’objectif d’un appareil photo."/></a>
 					<h3 class="mg-md text-center">
 						Création d'un site web pour photographes
 					</h3>
@@ -179,8 +181,8 @@
 			<div class="row tight-width-whitespace portfolio-row">
 				<div class="col-sm-6">
 					<a href="#" data-lightbox="img/3.avif" data-gallery-id="gallery-1" data-caption="Création d'un site internet pour un voyageur" data-frame="snapshot-lb">
-						<img src="img/3.avif" class="img-responsive portfolio-thumb" title="Création d'un site internet pour un voyageur"
-						alt="Photo d’une multiples équipements de photographes bien ordonnés en colonne."/></a>
+						<img src="img/3.avif" class="img-responsive portfolio-thumb" 
+						alt="Photo d’une multitude équipements de photographes bien ordonnés en colonne."/></a>
 					<h3 class="mg-md text-center">
 						Création d'un site internet pour un voyageur
 					</h3>
@@ -190,7 +192,7 @@
 				</div>
 				<div class="col-sm-6">
 					<a href="#" data-lightbox="img/4.avif" data-gallery-id="gallery-1" data-caption="Conception d'un site pour une agence de mariage" data-frame="snapshot-lb">
-						<img src="img/4.avif" class="img-responsive portfolio-thumb" title="Conception d'un site pour une agence de mariage"
+						<img src="img/4.avif" class="img-responsive portfolio-thumb" 
 						alt="Photo d’un bureau joliment encombré d'accessoires et équipements de préparation de mariage."/></a>
 					<h3 class="mg-md text-center">
 						Conception d'un site pour une agence de mariage
@@ -204,21 +206,21 @@
 	</article>
 	<!-- bloc-4-portfolio END -->
 	<!-- bloc-5-cta -->
-	<aside class="bloc bloc__cta bgc-dark-slate-blue bg-banniere d-bloc b-parallax">
+	<aside class="bloc bloc__cta bgc-dark-slate-blue bg-banniere d-bloc b-parallax" role="complementary">
 		<div class="container bloc-lg">
 			<div class="central-content row">
 				<h2 class="colour-frame mg-md text-center">
 					Prêt pour redonner vie à votre projet ?<br>Contactez notre équipe !
 				</h2>
 				<div class="col-sm-12 text-center">
-					<a id="contact__local" href="contact.html" class="btn cta-hero" title="Accéder au formulaire de contact">Contact</a>
+					<a id="contact__local" href="contact.html" class="btn cta-hero" role="link" aria-label="Lien vers page formulaire de contact">Contact</a>
 				</div>
 			</div>
 		</div>
 	</aside>
 	<!-- bloc-5-cta END -->
 	<!-- Footer - bloc-8 -->
-	<footer class="bloc bloc__footer bgc-atomic-tangerine d-bloc">
+	<footer class="bloc bloc__footer bgc-atomic-tangerine d-bloc" role="contentinfo">
 		<div class="container bloc-sm">
 			<div class="row">
 				<div class="col-sm-12">
@@ -228,22 +230,22 @@
 					<div class="row row-no-gutters social">
 						<div class="col-sm-3">
 							<div class="text-center">
-								<a class="social" href="twitter.com/" target="_blank" title="Twitter"><span class="link link__icon fa fa-twitter icon-md"></span></a> 
+								<a class="social" href="https://twitter.com/" target="_blank" role="link" aria-label="Lien vers Twitter"><span class="link link__icon fa fa-twitter icon-md"></span></a> 
 							</div>
 						</div>
 						<div class="col-sm-3">
 							<div class="text-center">
-								<a class="social" href="facebook.com/" target="_blank" title="Facebook"><span class="link link__icon fa fa-facebook icon-md"></span></a>
+								<a class="social" href="https://facebook.com/" target="_blank" role="link" aria-label="Lien vers Facebook"><span class="link link__icon fa fa-facebook icon-md"></span></a>
 							</div>
 						</div>
 						<div class="col-sm-3">
 							<div class="text-center">
-								<a class="social" href="dribbble.com/" target="_blank" title="Dribble"><span class="link link__icon fa fa-dribbble icon-md"></span></a>
+								<a class="social" href="https://dribbble.com/" target="_blank" role="link" aria-label="Lien vers Dribble"><span class="link link__icon fa fa-dribbble icon-md"></span></a>
 							</div>
 						</div>
 						<div class="col-sm-3">
 							<div class="text-center">
-								<a class="social" href="instagram.com/" target="_blank" title="Instagram"><span class="link link__icon fa fa-instagram icon-md"></span></a>
+								<a class="social" href="https://instagram.com/" target="_blank" role="link"aria-label="Lien vers Instagram"><span class="link link__icon fa fa-instagram icon-md"></span></a>
 							</div>
 						</div>
 					</div>
