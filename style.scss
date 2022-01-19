@@ -169,6 +169,9 @@ a:hover {
   &__header nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    height: 8rem;
+    padding: 0 30rem;
   }
 
   &__footer {
@@ -182,6 +185,30 @@ a:hover {
   .link__icon:hover {
     color: $secondary;
     text-decoration: none !important;
+  }
+}
+
+@media (max-width: 1399px) {
+  .bloc__header nav {
+    padding: 0 15rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .bloc__header nav {
+    padding: 0 5rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .bloc__header nav {
+    display: initial;
+  }
+}
+
+@media (max-width: 575px) {
+  .bloc__header {
+    padding: 0 2rem;
   }
 }
 
@@ -363,12 +390,5 @@ a[data-lightbox] {
 @media (max-width: 991px) {
   .b-parallax {
     background-attachment: scroll;
-  }
-}
-
-@media (max-width: 767px) {
-  .bloc__header nav {
-    display: flex;
-    justify-content: space-between;
   }
 }
