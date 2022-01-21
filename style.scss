@@ -366,18 +366,6 @@ a[data-lightbox] {
   text-decoration: underline !important;
 }
 
-.tc-white {
-  color: $main !important;
-}
-
-.ltc-white {
-  color: $whiteOwl !important;
-
-  &:hover {
-    color: $whiteOwl !important;
-  }
-}
-
 .bg-banniere {
   background-image: url("img/la-chouette-agence-banniere.avif");
   background-attachment: fixed;
@@ -390,5 +378,14 @@ a[data-lightbox] {
 @media (max-width: 991px) {
   .b-parallax {
     background-attachment: scroll;
+  }
+}
+
+form {
+  input:valid {
+    border: 1px solid green;
+  }
+  input:invalid {
+    border: 2px dashed red;
   }
 }

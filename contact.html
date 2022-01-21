@@ -5,80 +5,115 @@
     <meta name="description" content="La Chouette agence est une entreprise de Web Design basée à Lyon. Elle enchante votre web grâce à des créations de graphismes originaux transformant la navigation sur votre site en une véritable expérience utilisateur.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 
-    <link rel="shortcut icon" type="image/png" href="favicon.jpg">
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
+	<link rel="shortcut icon" type="image/png" href="favicon.avif">
 	
-    
-	<script src="./js/jquery-2.1.0.min.js"></script>
-	<script src="./js/bootstrap.min.js"></script>
-	<script src="./js/blocs.min.js"></script>
-	<script src="./js/jqBootstrapValidation.js"></script>
-	<script src="./js/formHandler.js"></script>
-    <title>page2</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
+	
+	<script src="./js/jquery-2.1.0.js"></script>
+	<script src="./js/bootstrap.js"></script>
+	<script src="./js/blocs.js"></script>
+	<script src="./js/jquery.touchSwipe.js" defer></script>
+	<script src="./js/gmaps.js"></script>
 
-    
+    <title>La Chouette Agence - Agence de Web Design basée à Lyon - Page contact</title>
+
 <!-- Analytics -->
 <!-- Analytics END -->
-    
 </head>
 <body>
-<!-- Principal conteneur -->
-<div class="page-container">
-    
-<!-- bloc-0 -->
-<div class="bloc bgc-white l-bloc " id="bloc-0">
-	<div class="container bloc-sm">
-		<nav class="navbar row">
-			<div class="navbar-header">
-				<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" alt="atlanta web design logo" height="40" /></a>
-				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
-					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-				</button>
-			</div>
-			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
-				<ul class="site-navigation nav navbar-nav">
-					<li>
-						<a href="index.html">Accueil</a>
-					</li>
-					<li>
-					</li>
-					<li>
-						<a href="page2.html">page2 &gt;</a>
-					</li>
-				</ul>
-			</div>
-		</nav>
-	</div>
-</div>
-<!-- bloc-0 END -->
+	<!-- bloc-0 -->
+	<header class="bloc bloc__header l-bloc" role="banner">
+			<nav class="ok" role="navigation" aria-label="barre de navigation">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="index.html" role="link" aria-label="Logo de la marque et lien vers la page principale actuelle">
+						<img src="img/la-chouette-agence.png" alt="Logo de la marque, une chouette au design épuré en noir et blanc. La chouette Agence" height="40"/>
+					</a>
+					<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1" aria-label="Icone de menu mobile à déployer">
+						<span class="sr-only">
+							Toggle navigation
+						</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
+					<ul class="site-navigation nav navbar-nav">
+						<li>
+							<a class="link" href="index.html" role="menuitem" role="link" aria-label="Lien vers la page principale">
+								Accueil
+							</a>
+						</li>
+						<li>
+							<a class="link" href="#contact__local" role="menuitem" role="link" aria-label="Lien vers le formulaire de contact, vous êtes actuellement sur cette page">
+								Nous contacter
+							</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+	</header>
 
-<!-- bloc-6 -->
-<div class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="bloc-6">
-	<div class="container bloc-lg">
-		<div class="row">
-			<div class="col-sm-12">
-				<h1 class="text-center hero-bloc-text tc-white">
-					Parlons web design !
-				</h1>
-				<p class="text-center mg-lg tc-white tight-width-whitespace">
-					Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br>
-					Parlez-nous de votre projet en complétant le formulaire ci-dessous.
-				</p>
+	<!-- bloc-0 END-->
+
+		<!-- bloc-6 -->
+		<section class="bloc bloc__presentation bloc-background bg-banniere d-bloc bg-t-edge b-parallax" aria-label="Section de prise de contact avec la chouette agence">
+			<div class="container bloc-lg">
+				<div class="row tight-width-whitespace">
+					<div class=" col-sm-12">
+						<h1 class="colour-frame text-center hero-bloc-text">
+							Parlons web design !
+						</h1>
+						<p class="colour-frame text-center mg-lg tight-width-whitespace">
+							Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br>
+							Parlez-nous de votre projet en complétant le formulaire ci-dessous.
+						</p>
+					</div>
+				</div>
 			</div>
-		</div>
-	</div>
-</div>
-<!-- bloc-6 END -->
+		</section>
+		<!-- bloc-6 END -->
 
 <!-- bloc-7 -->
 <div class="bloc bgc-white l-bloc" id="bloc-7">
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-6">
-				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+				<form method="post" id="form_1" success-msg="Success" fail-msg="Fail">
+					<div class="form-group">
+						<label>
+							Nom
+							<input id="name" role="textbox" class="form-control" aria-label="Entrez votre nom" novalidate success-msg="Votre message a bien été envoyé" fail-msg="Le nom est obligatoire"required />
+						</label>
+					</div>
+					<div class="form-group">
+						<label>
+							Adresse email
+							<input id="email" role="textbox" class="form-control" type="email" aria-label="Entrez votre email" required />
+						</label>
+					</div>
+					<div class="form-group">
+						<label>
+							Comment nous avez-vous connu ?
+							<input class="form-control" role="textbox" aria-label="Indiquez comment nous avez-vous connu ?" required id="input_504" />
+						</label>
+					</div>
+					<div class="form-group">
+						<label>
+							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
+							<textarea id="message" class="form-control" rows="4" cols="50" role="textbox" aria-label="Ajoutez autant de détails que nécessaire sur votre projet" required></textarea>
+						</label>
+					</div>  
+					<button class="btn btn-lg" type="submit" name="contact" aria-label="Transmettre le formulaire">
+                        Envoyer
+                    </button>
+					
+				</form>
+				<!--
+				<form id="form_1" novalidate success-msg="Votre message a bien été envoyé" fail-msg="Désolé, le formulaire a rencontré une erreur.">
 					<div class="form-group">
 						<label>
 							Nom
@@ -102,10 +137,10 @@
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
 						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
 					</div> 
-					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
+					<button class=" btn btn-lg " type="submit">
 						Envoyer
 					</button>
-				</form>
+				</form>-->
 			</div>
 			<div class="col-sm-6">
 				<p>
@@ -122,45 +157,40 @@
 <!-- ScrollToTop Button END-->
 
 
-<!-- Footer - bloc-8 -->
-<div class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
-	<div class="container bloc-sm">
-		<div class="row">
-			<div class="col-sm-12">
-				<p class="text-center white">
-					La chouette agence - Agence web basée à Lyon.<br>
-				</p>
-				<div class="row row-no-gutters social">
-					<div class="col-sm-3">
-						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
+	<!-- Footer - bloc-8 -->
+	<footer class="bloc bloc__footer d-bloc" role="contentinfo">
+		<div class="container bloc-sm">
+			<div class="row">
+				<div class="col-sm-12">
+					<p class="text-center">
+						La chouette agence - Agence web basée à Lyon.<br>
+					</p>
+					<div class="row row-no-gutters social">
+						<div class="col-sm-3">
+							<div class="text-center">
+								<a class="social" href="https://twitter.com/" target="_blank" role="link" aria-label="Lien vers Twitter"><span class="link link__icon fa fa-twitter icon-md"></span></a> 
+							</div>
 						</div>
-					</div>
-					<div class="col-sm-3">
-						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
+						<div class="col-sm-3">
+							<div class="text-center">
+								<a class="social" href="https://facebook.com/" target="_blank" role="link" aria-label="Lien vers Facebook"><span class="link link__icon fa fa-facebook icon-md"></span></a>
+							</div>
 						</div>
-					</div>
-					<div class="col-sm-3">
-						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
+						<div class="col-sm-3">
+							<div class="text-center">
+								<a class="social" href="https://dribbble.com/" target="_blank" role="link" aria-label="Lien vers Dribble"><span class="link link__icon fa fa-dribbble icon-md"></span></a>
+							</div>
 						</div>
-					</div>
-					<div class="col-sm-3">
-						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
+						<div class="col-sm-3">
+							<div class="text-center">
+								<a class="social" href="https://instagram.com/" target="_blank" role="link"aria-label="Lien vers Instagram"><span class="link link__icon fa fa-instagram icon-md"></span></a>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-</div>
-<!-- Footer - bloc-8 END -->
-
-</div>
-<!-- Principal conteneur END -->
-    
-
+	</footer>
+	<!-- Footer - bloc-8 END -->    
 </body>
 </html>
