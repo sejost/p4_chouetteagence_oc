@@ -1,6 +1,6 @@
 @font-face {
   font-family: et-line;
-  src: url(../fonts/et-line.eot?);
+  src: url(../fonts/et-line.eot);
   src: url(../fonts/et-line.eot?#iefix) format("embedded-opentype"),
     url(../fonts/et-line.woff) format("woff"),
     url(../fonts/et-line.ttf) format("truetype"),
@@ -8,6 +8,7 @@
   font-weight: 400;
   font-style: normal;
 }
+
 .et-icon-browser,
 .et-icon-presentation,
 .et-icon-edit {
@@ -21,12 +22,15 @@
   -moz-osx-font-smoothing: grayscale;
   display: inline-block;
 }
+
 .et-icon-browser:before {
-  content: "î€Œ";
+  content: "\e00c";
 }
+
 .et-icon-presentation:before {
-  content: "î€Ž";
+  content: "\e00e";
 }
+
 .et-icon-edit:before {
-  content: "î€œ";
+  content: "\e01c";
 }
