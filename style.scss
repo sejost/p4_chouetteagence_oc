@@ -341,8 +341,8 @@ a[data-lightbox] {
 
 .lightbox-caption {
   padding: 20px;
-  color: #FFF;
-  background: rgba(0, 0, 0, .5);
+  color: $whiteOwl;
+  background: $blackOwlClear;
   position: absolute;
   left: 15px;
   right: 15px;
@@ -350,13 +350,13 @@ a[data-lightbox] {
 }
 
 .close-lightbox {
-  color: #FFF;
+  color: $whiteOwl;
   font-size: 30px;
   position: absolute;
   top: 20px;
   right: 20px;
   z-index: 20;
-  background: rgba(0, 0, 0, .5);
+  background: $blackOwlClear;
   border: none;
   line-height: 30px;
   padding: 0 9px 5px;
@@ -367,14 +367,15 @@ a[data-lightbox] {
 .next-lightbox:hover,
 .prev-lightbox:hover {
   opacity: 1.0;
-  color: #FFF;
+  color: $whiteOwl;
+  background-color: $blackOwl;
 }
 
 .next-lightbox,
 .prev-lightbox {
   font-size: 20px;
-  color: rgba(255, 255, 255, .9);
-  background: rgba(0, 0, 0, .5);
+  color: $whiteOwl;
+  background: $blackOwl;
   transition: all .2s ease-in-out;
   position: absolute;
   top: 45%;
@@ -398,7 +399,7 @@ a[data-lightbox] {
 
 .snapshot-lb .lightbox-caption {
   padding: 0;
-  color: rgba(0, 0, 0, .5);
+  color: $blackOwl;
   background: none;
 }
 
