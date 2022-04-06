@@ -274,7 +274,6 @@ q, .quoter {
 
 .navbar {
   margin-bottom: 0;
-  z-index: 1;
 }
 
 .mg-md {
@@ -359,7 +358,7 @@ a[data-lightbox] {
   position: absolute;
   top: 20px;
   right: 20px;
-  z-index: 20;
+  z-index: 1;
   background: $blackOwlClear;
   border: none;
   line-height: 30px;
