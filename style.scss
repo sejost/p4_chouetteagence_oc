@@ -43,6 +43,7 @@ button {
 
 p {
   text-align: center;
+  font-size: 16px;
 }
 
 a,
@@ -63,10 +64,13 @@ a:hover {
   color: $secondary;
 }
 
-.quote {
+q, .quoter {
   font-size: 18px;
+  text-align: center;
   font-style: italic;
+  margin: 10px 10px;
 }
+
 
 .link {
   color: $blackOwl;
